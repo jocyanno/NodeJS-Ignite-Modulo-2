@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.10.0"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
